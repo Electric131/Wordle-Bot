@@ -1,0 +1,1 @@
+if (window.localStorage['nyt-wordle-state']) alert("Today's word is '" + JSON.parse(window.localStorage['nyt-wordle-state']).solution + "'.");
